@@ -5,7 +5,6 @@ export class Server {
     private _instance: fastify.FastifyInstance<http.Server, http.IncomingMessage, http.ServerResponse>;
 
     constructor() {
-        console.log('constructor2');
         this.init();
         this.start()
     }
