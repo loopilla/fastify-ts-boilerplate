@@ -1,0 +1,24 @@
+{
+    "name": "fastify-google-oauth",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run serve",
+        "serve": "node dist/Server.js",
+        "build": "npm run build-ts",
+        "build-ts": "tsc --sourceMap -p ./"
+    },
+    "author": "loopilla@gmail.com",
+    "license": "ISC",
+    "dependencies": {
+        "fastify": "^2.7.1",
+        "fastify-plugin": "^1.6.0",
+        "googleapis": "^42.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^12.7.1",
+        "ts-node": "^8.3.0",
+        "typescript": "^3.5.3"
+    }
+}
