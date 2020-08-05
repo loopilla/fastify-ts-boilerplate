@@ -12,7 +12,7 @@
     "author": "loopilla@gmail.com",
     "license": "ISC",
     "dependencies": {
-        "fastify": "^2.7.1",
+        "fastify": "^2.15.1",
         "fastify-plugin": "^1.6.0",
         "googleapis": "^42.0.0"
     },
