@@ -14,7 +14,7 @@
     "dependencies": {
         "fastify": "^2.15.1",
         "fastify-plugin": "^1.6.0",
-        "googleapis": "^42.0.0"
+        "googleapis": "^118.0.0"
     },
     "devDependencies": {
         "@types/node": "^12.7.1",
